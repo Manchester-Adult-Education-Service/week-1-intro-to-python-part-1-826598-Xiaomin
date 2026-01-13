@@ -207,6 +207,14 @@ print("\n-------------------------------------------\n"
 #     print("What animal is that?")
 
 # Write your code below:
+answer1 = input("What is your name please? ")
+answer2 = input(f"Hello {answer1}, how are you feeling today? ")
+if answer2 == "happy":
+    print("That's good to hear!")
+elif answer2 == "sad":
+    print("I'm sorry, I hope your day gets better.")
+else:
+    print("I see, thanks for sharing!")
 
 
 # -------------------------------------------
