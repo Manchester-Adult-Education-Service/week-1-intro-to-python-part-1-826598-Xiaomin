@@ -36,7 +36,11 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
-
+print("Welcome to Python!")
+user_name = "Xiaomin"
+# f-string
+print("Hello "+ user_name)
+print(f"Hello {user_name}")
 # -------------------------------------------
 # Task 2: Basic Arithmetic (The Calculator)
 # -------------------------------------------
@@ -56,7 +60,10 @@ print("\n-------------------------------------------\n"
 # fruit_bowl = apples + oranges
 
 # Write your code below:
-
+num1 = 10
+num2 = 5
+total = num1 + num2
+print(total)
 
 # -------------------------------------------
 # Task 3: User Input and IF Statements
@@ -79,7 +86,11 @@ print("\n-------------------------------------------\n"
 #     print("Cool choice.")
 
 # Write your code below:
-
+password = input("What is the password?")
+if password == "Python123":
+    print("Access Granted")
+else:
+    print("Access Denied")
 
 # -------------------------------------------
 # CHECKPOINT & SAVE
@@ -113,7 +124,8 @@ print("\n-------------------------------------------\n"
 # next_year = age + 1
 
 # Write your code below:
-
+number = int(input("How many bits in a byte? "))
+print(number * number)
 
 # Extension 2: Score Tracker
 # -------------------------------------------
@@ -130,6 +142,13 @@ print("\n-------------------------------------------\n"
 # points = points + 5
 
 # Write your code below:
+score = 0
+answer = int(input("what is 5 plus 5? "))
+if answer == 10:
+    score = score + 10
+    print (f"Congrats, your score is {score}")
+else:
+    print (f"Sorry, your score is {score}")
 
 
 # Extension 3: The Length Checker
@@ -147,7 +166,12 @@ print("\n-------------------------------------------\n"
 # size = len(animal)
 
 # Write your code below:
-
+answer = input("What is your favourite fruit? ")
+size = len(answer)
+if size > 5:
+    print("That's a long word!")
+else:
+    print("sounds good!")
 
 # -------------------------------------------
 # SAVE YOUR EXTENSIONS
@@ -183,6 +207,14 @@ print("\n-------------------------------------------\n"
 #     print("What animal is that?")
 
 # Write your code below:
+answer1 = input("What is your name please? ")
+answer2 = input(f"Hello {answer1}, how are you feeling today? ")
+if answer2 == "happy":
+    print("That's good to hear!")
+elif answer2 == "sad":
+    print("I'm sorry, I hope your day gets better.")
+else:
+    print("I see, thanks for sharing!")
 
 
 # -------------------------------------------
