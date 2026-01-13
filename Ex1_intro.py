@@ -124,7 +124,8 @@ print("\n-------------------------------------------\n"
 # next_year = age + 1
 
 # Write your code below:
-
+number = int(input("How many bits in a byte? "))
+print(number * number)
 
 # Extension 2: Score Tracker
 # -------------------------------------------
@@ -141,6 +142,13 @@ print("\n-------------------------------------------\n"
 # points = points + 5
 
 # Write your code below:
+score = 0
+answer = int(input("what is 5 plus 5? "))
+if answer == 10:
+    score = score + 10
+    print (f"Congrats, your score is {score}")
+else:
+    print (f"Sorry, your score is {score}")
 
 
 # Extension 3: The Length Checker
@@ -158,7 +166,12 @@ print("\n-------------------------------------------\n"
 # size = len(animal)
 
 # Write your code below:
-
+answer = input("What is your favourite fruit? ")
+size = len(answer)
+if size > 5:
+    print("That's a long word!")
+else:
+    print("sounds good!")
 
 # -------------------------------------------
 # SAVE YOUR EXTENSIONS
